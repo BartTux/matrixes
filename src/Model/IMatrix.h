@@ -22,12 +22,12 @@ namespace Model
 
         virtual void Initialize() = 0;
 
-        virtual void Transpose() {}
-        virtual void CalculateDeterminant() {}
+        void Transpose();
+        void CalculateDeterminant();
 
         [[nodiscard]] double GetDeterminant();
 
-      private:
+      protected:
         double aNumber;
         double bNumber;
         double cNumber;

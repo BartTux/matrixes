@@ -1,24 +1,24 @@
-#ifndef MATRIX_A_H
-#define MATRIX_A_H
+#ifndef MATRIX_B_H
+#define MATRIX_B_H
 
 #include "IMatrix.h"
 
 namespace Model
 {
     ///
-    /// Class MatrixA.
+    /// Class MatrixB.
     ///
     /// Class extends interface IMatrix and initializes
     /// or overrides its methods.
     ///
     /// @author BartTux <bartpot98@gmail.com>
     ///
-    class MatrixA : public IMatrix
+    class MatrixB : public IMatrix
     {
       public:
-        MatrixA() = default;
+        MatrixB() = default;
         void Initialize() override;
     };
 }
 
-#endif /* MATRIX_A_H */
+#endif /* MATRIX_B_H */

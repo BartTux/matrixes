@@ -2,17 +2,12 @@
 
 namespace Model
 {
-    void IMatrix::Initialize()
+    void MatrixA::Initialize()
     {
-        std::cout << std::endl;
-    }
-
-    double IMatrix::GetDeterminant()
-    {
-        if (determinant == 0) {
-            CalculateDeterminant();
-        }
-
-        return determinant;
+        elements = {
+            {aNumber, (aNumber + bNumber), (bNumber + cNumber)},
+            {(cNumber - aNumber), bNumber, (aNumber - cNumber)},
+            {(bNumber - cNumber), aNumber, cNumber}
+        };
     }
 }

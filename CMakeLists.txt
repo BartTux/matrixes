@@ -3,4 +3,4 @@ project(matrixes)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(matrixes src/main.cpp src/Model/IMatrix.h src/Model/MatrixA.cpp src/Model/MatrixA.h)
+add_executable(matrixes src/main.cpp src/Model/IMatrix.h src/Model/MatrixA.cpp src/Model/MatrixA.h src/Model/IMatrix.cpp src/Model/MatrixB.cpp src/Model/MatrixB.h)
